@@ -1,0 +1,61 @@
+// All colors derive from brand color
+$color_brand: #357dba;
+$color_error: #e1172f;
+$logoBG: #dedede;
+$sales: #82a9c2;
+$orders: #96af5f;
+
+$bg_pattern: url(/img/sayagata.png);
+
+$color_brand_d20: darken($color_brand, 20%);
+$color_brand_d15: darken($color_brand, 15%);
+$color_brand_d10: darken($color_brand, 10%);
+$color_brand_d30: darken($color_brand, 30%);
+$color_brand_d35: darken($color_brand, 35%);
+$color_brand_l30: lighten($color_brand, 30%);
+$color_brand_l10: lighten($color_brand, 10%);
+$color_brand_l20: lighten($color_brand, 20%);
+
+// Whites, Grays, Blacks
+$white: #ffffff;
+$off_white: darken($white, 3%);
+$spackle: darken($white, 10%);
+$least_gray: darken($white, 20%);
+$least_gray: darken($white, 20%);
+$lesser_gray: darken($white, 34%);
+$less_gray: darken($white, 45%);
+
+$black: #000000;
+
+$darkest: lighten($black, 15%);
+$darker: lighten($black, 34%);
+$gray: lighten($black, 50%);
+$dark: lighten($black, 45%);
+
+
+//Transparencies
+$black_t40: rgba(0, 0, 0, 0.4);
+$black_t30: rgba(0, 0, 0, 0.3);
+$black_t20: rgba(0, 0, 0, 0.2);
+$white_t80: rgba(255, 255, 255, 0.8);
+$white_t50: rgba(255, 255, 255, 0.5);
+
+$color_bronze: #a7761f;
+$color_kermit: #5d9b3e;
+$color_noble_blue: #357dba;
+$color_goldfish: #ff8500;
+$color_slate: #5e6a83;
+$color_blossom: #cf3f50;
+$color_moulin: #a7326c;
+$color_royal: #5b2585;
+$color_sunspot: #ffe612;
+$color_vista: #59d4d3;
+$color_crom: #e1172f;
+$color_marianas: #3b3bf1;
+
+//fonts
+$Lato: 'Lato', sans-serif;
+$font_1: arial;
+$font_2: sans-serif;
+$font_3: Shadows Into Light Two;
+$font_4: cursive;

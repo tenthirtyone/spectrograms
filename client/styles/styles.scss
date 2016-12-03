@@ -1,0 +1,29 @@
+@import "./variables";
+$bgColor: #eeeeee;
+
+html {
+  height: 100%;
+  background-color: $bgColor;
+}
+
+body {
+  height: 100%;
+  background-color: $bgColor;
+
+  font-family: $Lato;
+  color: $darkest;
+}
+
+a {
+  color: $off_white;
+  &:hover, &:active, &:focus {
+    color: $off_white;
+  }
+}
+
+
+[ng-click],
+[data-ng-click],
+[x-ng-click] {
+    cursor: pointer;
+}

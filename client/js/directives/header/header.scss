@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.navbar {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  ul {
+    li {
+      text-transform: uppercase;
+      font-size: 8px;
+      a {
+        &.nav-item {
+          &:hover, &:focus {
+              color: $off_white;
+          }
+        }
+      }
+    }
+  }
+}

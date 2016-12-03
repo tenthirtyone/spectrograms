@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+#navbar {
+  background-color: $logoBG;
+  color: #BBB;
+  .navbar-brand {
+    padding: 10px;
+  }
+  img {
+    width: 28px;
+  }
+  li {
+    a {
+      font-size: 2vh;
+    }
+  }
+}
